@@ -1,0 +1,49 @@
+
+██████╗░░█████╗░██████╗░███╗░░██╗  ██████╗░██████╗░███████╗
+██╔══██╗██╔══██╗██╔══██╗████╗░██║  ╚════██╗██╔══██╗██╔════╝
+██████╦╝██║░░██║██████╔╝██╔██╗██║  ░░███╔═╝██████╦╝█████╗░░
+██╔══██╗██║░░██║██╔══██╗██║╚████║  ██╔══╝░░██╔══██╗██╔══╝░░
+██████╦╝╚█████╔╝██║░░██║██║░╚███║  ███████╗██████╦╝███████╗
+╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝  ╚══════╝╚═════╝░╚══════╝
+
+███████╗██╗░░░██╗░█████╗░██╗░░██╗██╗██╗███╗░░██╗  ██████╗░░█████╗░░█████╗░████████╗
+██╔════╝██║░░░██║██╔══██╗██║░██╔╝╚█║██║████╗░██║  ██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝
+█████╗░░██║░░░██║██║░░╚═╝█████═╝░░╚╝██║██╔██╗██║  ██████╔╝██║░░██║██║░░██║░░░██║░░░
+██╔══╝░░██║░░░██║██║░░██╗██╔═██╗░░░░██║██║╚████║  ██╔══██╗██║░░██║██║░░██║░░░██║░░░
+██║░░░░░╚██████╔╝╚█████╔╝██║░╚██╗░░░██║██║░╚███║  ██║░░██║╚█████╔╝╚█████╔╝░░░██║░░░
+╚═╝░░░░░░╚═════╝░░╚════╝░╚═╝░░╚═╝░░░╚═╝╚═╝░░╚══╝  ╚═╝░░╚═╝░╚════╝░░╚════╝░░░░╚═╝░░░
+
+
+Questionnaire :
+
+1/ Pourquoi Debian ?	
+						Facilite d'installation et de configuration par rapport a CentOs.
+
+2/ Qu'est ce qu'un VM ?
+						Environnement virtualise fonctionnant sur une machine physique,
+						avec son propre OS et les memes equipements qu'une machine physique :
+						CPU, memoire RAM, disque dur et carte reseau.
+						Utilise une technologie de virtualisation et des softwares pour simuler le hardware.
+
+3/ Difference APT et Aptitude ?
+						Aptitude est un gestionnaire de paquets de haut niveau, interface graphique possible.
+						APT est un gestionnaire de paquets de bas niveau qui peuvent etre utilises par
+						un gestionnaire de haut niveau. S'utilise en lignes de commandes.
+
+4/ SELinux / AppArmor
+						SELinux -> "Security Enhanced Linux"
+						Systeme de securite integre a Linux.
+						Controle les acces aux ressources du systeme.
+						Specifie quels utulisateurs et processus ont le droit d'acceder
+						a telles ou telles ressources.
+	
+5/ SSH ?
+						"Secure Shell"
+						Programme informatique et protocole de communication securise.
+
+6/ LVM ?
+						LVM (Logical Volume Manager) permet de gérer des partitions logiques, 
+						et non pas physiques, ce qui a notamment comme avantage de pouvoir plus 
+						facilement modifier leur taille.
+						
+						
