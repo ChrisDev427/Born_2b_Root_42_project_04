@@ -24,7 +24,7 @@ cpu_load=$(mpstat | grep "all" | awk '{printf("%.1f%%", $4+$6)}')
 last_boot=$(who -b | grep "system" | awk '{print$3" "$4}')
 
 #Whether LVM is active or not.
-activ_lvm=$(lvscan | grep '^  ACTIVE' | wc -l)
+activ_lvm=$(lsblk | grep 'lvm' | wc -l)
 lvm_ret=$(if [ $activ_lvm != 0 ]; then echo yes; else echo no; fi)
 
 #The number of active connections.
