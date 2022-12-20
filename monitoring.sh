@@ -38,7 +38,7 @@ ipv4=$(hostname -I)
 add_mac=$(ip link show | grep 'ether' | awk '{print$2}')
 
 #The number of commands executed with the sudo program.
-nb_sudo=$(journalctl _COMM=sudo | grep 'COMMAND' | wc -l)
+nb_sudo=$(cat /var/log/sudo/io.log | grep 'COMMAND' | wc -l)
 
 wall "
 
